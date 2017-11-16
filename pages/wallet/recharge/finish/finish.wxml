@@ -1,0 +1,8 @@
+<view class="successicon">
+    <icon type="success" size="90" color="#0096eb"/>
+    <text>添加成功</text>
+      <!-- 提交 -->
+<view class='sumbit-box' style='margin-top:80rpx;'>
+  <button class='sumbit-btn' bindtap='onbanklist'>返回查看</button>
+</view>
+</view>

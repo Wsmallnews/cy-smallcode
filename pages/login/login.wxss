@@ -1,0 +1,62 @@
+page{
+  background: #fff;
+}
+
+.login-logo{
+  width:100%;
+  height: 250rpx;
+  position: relative;
+}
+.logo-pic{
+  width:180rpx;
+  height:180rpx;
+  position:absolute;
+  left:50%;
+  margin-left:-90rpx;
+  top:50%;
+  margin-top:-90rpx;
+}
+.phone-yz{
+  margin-top: 100rpx;
+  padding: 0 80rpx;
+}
+.phone-tr{
+  display: flex;
+  flex-direction: row;
+  padding: 20rpx 0;
+  align-items: center;
+  border-bottom: 1px solid #e6e6e6;
+  position: relative;
+}
+.phone-tr text{
+  font-size: 30rpx;
+  width: 120rpx;
+  display: inline-block;
+}
+.phone-tr input{
+  font-size: 30rpx;
+  width: 100%;
+}
+.obtain-code{
+  position: absolute;
+  background: #18aeff;
+  padding:15rpx 20rpx;
+  font-size: 30rpx;
+  color: #fff;
+  border-radius: 10rpx;
+  right: 0;
+  z-index: 10;
+}
+.login-btn{
+   padding: 0 130rpx;
+   box-sizing: border-box;  
+}
+.login-btn-b{
+  background: #18aeff;
+  width: 100%;
+  height: 89rpx;
+  line-height: 89rpx;
+  border-radius:89rpx; 
+  color: #fff;
+  margin-top: 300rpx;
+}

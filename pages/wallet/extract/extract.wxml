@@ -1,0 +1,48 @@
+<view class='container'>
+  <view class='recharge-tr' bindtap="selectBank">
+    <text class='recharge-zd'>付款银行卡</text>
+    <text class='blue font28' style="width:100%;">中国工商银行（1234）</text>
+    <image src='../../../images/triangle-right.png' class='triangle-right'></image>
+  </view>
+  <view class='extract-money'>
+    <text>提现金额</text>
+    <view class='extract-input'>
+      <text>￥</text>
+      <input type='number'></input>
+    </view>
+  </view>
+
+  <view class='money-text'>
+    <text class='fl'>可用余额2880元</text>
+    <text class='fr blue'>全部提现</text>
+  </view>
+
+  <view class='mart20 extract-text'>
+    两小时内到账
+  </view>
+
+   <!-- 提交 -->
+<view class='sumbit-box' style='margin-top:10rpx;'>
+  <button class='sumbit-btn'>确认提现
+  </button>
+</view>
+
+
+  <!-- 虚拟键盘 -->
+  <view class='xn-keyboard'>
+    <view class='keyboard-num'>1</view>
+    <view class='keyboard-num'>2</view>
+    <view class='keyboard-num'>3</view>
+    <view class='keyboard-num'>4</view>
+    <view class='keyboard-num'>5</view>
+    <view class='keyboard-num'>6</view>
+    <view class='keyboard-num'>7</view>
+    <view class='keyboard-num'>8</view>
+    <view class='keyboard-num'>9</view>
+    <view class='keyboard-num'>·</view>
+    <view class='keyboard-num'>0</view>
+    <view class='keyboard-num'>
+      <image src='../../../images/delete-icon.jpg'></image>
+    </view>
+  </view>
+</view>

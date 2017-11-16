@@ -1,0 +1,16 @@
+page{
+  background: #fff;
+}
+.successicon{
+  margin-top: 50rpx;
+  width: 100%;
+  text-align: center;
+}
+.successicon icon{
+  display: block;
+}
+.successicon text{
+  font-size: 32rpx;
+  margin-top: 50rpx;
+  display: block;
+}

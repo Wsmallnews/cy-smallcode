@@ -1,0 +1,40 @@
+page{
+  background: #fff;
+}
+.validate-bg{
+  padding: 30rpx 0;
+  border-top: 1px solid #e6e6e6;
+  text-align: center;
+}
+.validate-bg text{
+  display: block;
+  font-size: 30rpx;
+  color: #999;
+  margin: 5rpx 0;
+}
+.validate-bg text.photo{
+  display: inline-block;
+  color: #333;
+}
+.validate-line{
+  height: 20rpx;
+  background: #f5f5f5;
+}
+
+.validate-tr{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 20rpx;
+}
+.validate-tr text{
+  font-size: 28rpx;
+  color: #333;
+  width: 160rpx;
+  display: inline-block;
+}
+.validate-tr input{
+  font-size: 28rpx;
+  width: 100%;
+}

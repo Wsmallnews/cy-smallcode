@@ -1,0 +1,33 @@
+<view class='container'>
+  <view class='bdbg'>
+    <text>请绑定持卡人本人的银行卡</text>
+  </view>
+  <view class='add-bankbox'>
+    <view class='add-banktr'>
+      <text>持卡人</text>
+      <input type='text' placeholder='请输入姓名'></input>
+    </view>
+    <view class='add-banktr'>
+      <text>卡号</text>
+      <input type='number' placeholder='请输入卡号'></input>
+    </view>
+    <view class='add-banktr'>
+      <text>开户行</text>
+      <input type='text' placeholder='请输入开户行'></input>
+    </view>
+    <view class='add-banktr'>
+      <text>支行</text>
+      <input type='text' placeholder='请输入支行'></input>
+    </view>
+    <view class='add-banktr'>
+      <text>开户地址</text>
+      <input type='text' placeholder='请输入开户地址'></input>
+    </view>
+  </view>
+
+  <!-- 提交 -->
+<view class='sumbit-box' style='margin-top:80rpx;'>
+  <button class='sumbit-btn' bindtap='onvalidate'>下一步
+  </button>
+</view>
+</view>

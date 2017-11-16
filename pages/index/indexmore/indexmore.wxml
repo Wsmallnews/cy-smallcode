@@ -1,0 +1,49 @@
+<view class='container'>
+  <view class='more-list'>
+    <view class='more-list-tr'>
+      <image src='../../../images/index-navicon1.jpg' class='index-icon'></image>
+      <text>配件</text>
+      <image src='../../../images/triangle-right.png' class='triangle-right'></image>
+    </view>
+    <view class='more-list-tr'>
+      <image src='../../../images/index-navicon2.jpg' class='index-icon'></image>
+      <text>加油</text>
+      <image src='../../../images/triangle-right.png' class='triangle-right'></image>
+    </view>
+    <view class='more-list-tr'>
+      <image src='../../../images/index-navicon3.jpg' class='index-icon'></image>
+      <text>维修</text>
+      <image src='../../../images/triangle-right.png' class='triangle-right'></image>
+    </view>
+    <view class='more-list-tr'>
+      <image src='../../../images/index-navicon4.jpg' class='index-icon'></image>
+      <text>金融</text>
+      <image src='../../../images/triangle-right.png' class='triangle-right'></image>
+    </view>
+    <view class='more-list-tr'>
+      <image src='../../../images/index-navicon5.jpg' class='index-icon'></image>
+      <text>救援</text>
+      <image src='../../../images/triangle-right.png' class='triangle-right'></image>
+    </view>
+    <view class='more-list-tr'>
+      <image src='../../../images/index-navicon6.jpg' class='index-icon'></image>
+      <text>洗车</text>
+      <image src='../../../images/triangle-right.png' class='triangle-right'></image>
+    </view>
+    <view class='more-list-tr'>
+      <image src='../../../images/index-navicon7.jpg' class='index-icon'></image>
+      <text>保养</text>
+      <image src='../../../images/triangle-right.png' class='triangle-right'></image>
+    </view>
+    <view class='more-list-tr'>
+      <image src='../../../images/index-navicon8.jpg' class='index-icon'></image>
+      <text>违章</text>
+      <image src='../../../images/triangle-right.png' class='triangle-right'></image>
+    </view>
+    <view class='more-list-tr'>
+      <image src='../../../images/index-navicon9.jpg' class='index-icon'></image>
+      <text>保险</text>
+      <image src='../../../images/triangle-right.png' class='triangle-right'></image>
+    </view>
+  </view>
+</view>

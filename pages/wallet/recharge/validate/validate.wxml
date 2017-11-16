@@ -1,0 +1,15 @@
+<view class='container'>
+  <view class='validate-bg'>
+    <text>本次操作需要短信确认，请输入</text>
+    <text><text class='photo'>158*****263</text> 收到的短信验证码</text>
+  </view>
+  <view class='validate-line'></view>
+  <view class='validate-tr'>
+    <text>验证码</text>
+    <input type='text' placeholder='请输入您收到的验证码'/>
+  </view>
+    <!-- 提交 -->
+<view class='sumbit-box' style='margin-top:80rpx;'>
+  <button class='sumbit-btn' bindtap='onfinish'>确定</button>
+</view>
+</view>

@@ -1,0 +1,22 @@
+<view class='container'>
+  <view class='login-logo'>
+    <image class='logo-pic' src='../../../images/account-logo.png'></image>
+  </view>
+  <view class='phone-yz'>
+    <view class='phone-tr'>
+      <text>手机号</text>
+      <input type="number" bindblur="savePhoneNumber" name="phoneNumber" placeholder="请输入手机号" />
+      <view class='obtain-code' bindtap="getValidCode">{{count!=60?count+' s':'获取验证码'}}</view>
+    </view>
+    <view class='phone-tr'>
+      <text>验证码</text>
+      <input type='text' placeholder='请输入您收到的验证码'></input>
+    </view>
+  </view>
+
+  <view class='login-btn'>
+    <button class='login-btn-b'>
+    登 录
+    </button>
+  </view>
+</view>

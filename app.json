@@ -1,0 +1,66 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/shopdetails/shopdetails",
+    "pages/shopdetails/map/map", 
+    "pages/login/login",
+    "pages/switchcity/switchcity",
+    "pages/index/indexmore/indexmore",
+    "pages/wallet/wallet",
+    "pages/wallet/extract/extract",
+    "pages/wallet/recharge/validate/validate",
+    "pages/wallet/recharge/finish/finish",
+    
+    "pages/personal/personal",
+    "pages/wallet/recharge/recharge",
+    
+    "pages/wallet/recharge/fillbank/fillbank",
+    "pages/wallet/recharge/selectbank/selectbank",
+    "pages/personal/accountsaft/accountsaft",
+    "pages/personal/modify/modify",
+    
+    "pages/personal/createshop/createshop",
+    
+    "pages/personal/modify/inputtext/inputtext",
+    
+    "pages/personal/vipgrade/vipgrade",
+    "pages/personal/team/team",
+    "pages/personal/trade/trade",
+    "pages/personal/prove/prove",
+    "pages/personal/collect/collect",
+    "pages/nearby/nearby", 
+    "pages/seach/seach",
+    "pages/personal/comment/comment" 
+  ],
+  "tabBar": {
+    "color": "#808080",
+    "selectedColor": "#0096ec",
+    "backgroundColor":"#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/index-icon.png",
+        "selectedIconPath": "images/index-iconed.png"
+      },
+      {
+        "pagePath": "pages/wallet/wallet",
+        "text": "钱包",
+        "iconPath": "images/wallet.png",
+        "selectedIconPath": "images/walleted.png"
+      },
+      {
+        "pagePath": "pages/nearby/nearby",
+        "text": "附近",
+        "iconPath": "images/nearby-icon.png",
+        "selectedIconPath": "images/nearby-iconed.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "我的",
+        "iconPath": "images/my-icon.png",
+        "selectedIconPath": "images/my-iconed.png"
+      }
+    ]
+  }
+}

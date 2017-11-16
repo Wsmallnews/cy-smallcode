@@ -1,0 +1,81 @@
+<view class='container'>
+  <view class='recharge-warn'>
+    每次最多可充值10,000元
+  </view>
+  <view class='recharge-list-box'>
+    <view class='recharge-tr' bindtap="selectBank">
+      <text class='recharge-zd'>付款银行卡</text>
+      <text class='blue font28' style="width:100%;">中国工商银行（1234）</text>
+      <image src='../../../images/triangle-right.png' class='triangle-right'></image>
+    </view>
+    <view class='recharge-tr'>
+      <text class='recharge-zd'>输入金额</text>
+      <input type='text' placeholder='输入金额' maxlength='6'></input>
+    </view>
+  </view>
+
+  <!-- 提交 -->
+  <view class='sumbit-box' style='margin-top:60rpx;'>
+    <button class='sumbit-btn' bindtap="setModalStatus" data-status="1">下一步
+    </button>
+  </view>
+
+  <view class="commodity_screen" bindtap="hideModal" wx:if="{{showModalStatus}}"></view>
+  <view animation="{{animationData}}" class="commodity_attr_box" wx:if="{{showModalStatus}}"></view>
+
+  <!-- 虚拟键盘 -->
+<view class='xn-keyboard'>
+        <view class='keyboard-num'>1</view>
+        <view class='keyboard-num'>2</view>
+        <view class='keyboard-num'>3</view>
+        <view class='keyboard-num'>4</view>
+        <view class='keyboard-num'>5</view>
+        <view class='keyboard-num'>6</view>
+        <view class='keyboard-num'>7</view>
+        <view class='keyboard-num'>8</view>
+        <view class='keyboard-num'>9</view>
+        <view class='keyboard-num garybg'>.</view>
+        <view class='keyboard-num'>0</view>
+        <view class='keyboard-num'>
+          <image src='../../../images/delete-icon.jpg'></image>
+        </view>
+      </view>
+</view>
+
+
+<!-- 弹出 -->
+<view class="drawer_screen" bindtap="setModalStatus" data-status="0" wx:if="{{showModalStatus}}"></view>
+<view animation="{{animationData}}" class="drawer_attr_box" wx:if="{{showModalStatus}}">
+  <view class="close_icon" bindtap="setModalStatus" data-status="0">
+    <image src='../../../images/pay-lefticon.jpg'></image>
+  </view>
+  <view class='pay-tit'>请输入支付密码</view>
+  <view class="drawer_attr_content">
+    <view class="password_center">
+      <view class='text_center'>●</view>
+      <view class='text_center'>●</view>
+      <view class='text_center'>●</view>
+      <view class='text_center'>●</view>
+      <view class='text_center'>●</view>
+      <view class='text_center'>●</view>
+    </view>
+    <view class="drawer_desc">
+      <view class='xn-keyboard'>
+        <view class='keyboard-num'>1</view>
+        <view class='keyboard-num'>2</view>
+        <view class='keyboard-num'>3</view>
+        <view class='keyboard-num'>4</view>
+        <view class='keyboard-num'>5</view>
+        <view class='keyboard-num'>6</view>
+        <view class='keyboard-num'>7</view>
+        <view class='keyboard-num'>8</view>
+        <view class='keyboard-num'>9</view>
+        <view class='keyboard-num garybg'>.</view>
+        <view class='keyboard-num'>0</view>
+        <view class='keyboard-num'>
+          <image src='../../../images/delete-icon.jpg'></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

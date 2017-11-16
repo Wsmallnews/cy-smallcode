@@ -1,0 +1,53 @@
+/* 热门搜索 */
+@import "../publicitem/publicitem.wxss";
+.hot-seach{
+   background: #fff;
+   padding: 20rpx 20rpx 30rpx 20rpx;
+}
+.hot-seach-tit{
+  font-size: 24rpx;
+  color: #333;
+}
+.hot-seach-option text{
+ color: #616161;
+ margin-top: 20rpx;
+ display: inline-block;
+ font-size: 26rpx;
+ margin-right: 20rpx;
+ border: 1px solid #e5e5e5;
+ padding: 10rpx 20rpx;
+ border-radius: 10rpx;
+}
+/* 历史搜索 */
+.history-seach{
+  padding: 20rpx;
+  background: #fff;
+  margin-top: 20rpx;
+}
+.history-seach-tit{
+  border-bottom: 1px solid #e4e4e4;
+  vertical-align: middle;
+}
+.history-seach-tit text{
+  font-size: 24rpx;
+  color: #333;
+  padding-bottom: 20rpx;
+  display: inline-block;
+  vertical-align: middle;
+}
+.history-seach-tit image{
+  width: 26rpx;
+  height: 28rpx;
+  float: right;
+  margin-top: 10rpx;
+  margin-right: 20rpx;
+}
+.history-seach-list text{
+  font-size: 28rpx;
+  padding-left: 10rpx;
+  display: block;
+  color: #707070;
+  height: 102rpx;
+  line-height: 102rpx;
+  border-bottom: 1px solid #e4e4e4;
+}

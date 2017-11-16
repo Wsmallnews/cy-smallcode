@@ -1,0 +1,31 @@
+<import src="../publicitem/publicitem.wxml" />
+<view class='container'>
+<!-- 搜索框 -->
+  <template is="seachItem" data="{{...item}}"/>
+  <!-- 热门搜索 -->
+  <view class='hot-seach'>
+    <text class='hot-seach-tit'>热门搜索</text>
+    <view class='hot-seach-option'>
+      <text>将军轮胎</text> <text>机油</text>
+      <text>3M</text> <text>脚垫</text>
+      <text>嘉实多</text> <text>机油</text>
+      <text>将军轮胎</text> <text>机油</text>
+      <text>将军轮胎</text> <text>机油</text>
+      <text>将军轮胎</text> <text>机油</text>
+      <text>将军轮胎</text> <text>机油</text>
+      <text>将军轮胎</text> <text>机油</text>
+    </view>
+  </view>
+  <!-- 历史搜索 -->
+  <view class='history-seach'>
+    <view class='history-seach-tit'>
+      <text>历史搜索</text>
+      <image src='../../images/delete-icon.png'></image>
+    </view>
+    <view class='history-seach-list'>
+      <text>燃油宝</text>
+      <text>行车记录仪</text>
+      <text>美国将军轮胎</text>
+    </view>
+  </view>
+</view>
