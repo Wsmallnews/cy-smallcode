@@ -107,8 +107,9 @@
 
 .drawer_attr_content {
   padding: 20rpx;
-  height: 600rpx;
+  height: 680rpx;
   overflow-y: scroll;
+  box-sizing: border-box;
 }
 
 

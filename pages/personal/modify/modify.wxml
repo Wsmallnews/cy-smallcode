@@ -8,7 +8,7 @@
     </view>
     <view class='modify-tr' bindtap="setNickName">
       <text class='modify-zd fl'>昵称</text>
-      <text class='modify-info fr'>桥到船头</text>
+      <text class='modify-info fr'>{{userInfo.nickName}}</text>
       <image src='../../../images/triangle-right.png' class='triangle-right'></image>
     </view>
     <view class='modify-tr' bindtap="actionSheetTap">
